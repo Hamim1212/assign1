@@ -1,0 +1,105 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+h1{
+    font-size: 45px;
+}
+.namecolor{
+    color: rgb(214, 27, 105);
+}
+.halfdiv{
+    width: 30%;
+    float: left;
+    margin-left: 7%;
+    padding: 3%;
+
+}
+.halfdiv img{
+    width: 100%;
+    padding: 40px;
+}
+#firstdiv{
+    padding-top: 10%;
+}
+.firstsection{
+    background-image: url("header-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+section{
+    height: 750px;
+}
+.firstbutton{
+    text-decoration: none;
+    background-color:rgb(214, 27, 105) ;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 10px;
+
+}
+#seconddiv{padding-top: 10%;
+}
+.secondsection{background-image: url("biography-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+.thirddiv img{
+    width: 25%;
+    float: left;
+    padding: 30px;
+    
+    
+}
+.thirdsection{
+    text-align: center
+    ;
+    padding: 10px 120px ;
+    background-image: url("latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.headline{
+    text-align: center;
+    background-image: url("footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+   
+}
+.founder{
+    color: grey;
+}
+.email{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    background-position-x: center;
+    
+
+}
+.lastbutton{
+    text-align: center;
+    margin-left: 325px;
+   
+   text-decoration: none;
+   background-color: rgb(214, 27, 105);
+   width: 50%;
+   color: white;
+   border-radius: 10px;
+   padding: 10px;
+    align-items: center;
+    background-position-x: center;
+}
+#emaildeco{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    
+}
+#lastdiv{
+    text-align: center;
+}
+#copyright{
+    margin-top: 220px;
+}
