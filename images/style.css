@@ -1,12 +1,16 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0px;
+    background-color: linear-gradient(white,cyan,white) ; 
 }
 h1{
     font-size: 45px;
 }
 .namecolor{
     color: rgb(214, 27, 105);
+}
+.namecolor:hover{
+    font-size: 60px;
 }
 .halfdiv{
     width: 30%;
@@ -27,16 +31,23 @@ h1{
     background-repeat: no-repeat;
     background-size: 100%;
 }
+.firstpara:hover{
+    font-size: 20px;
+}
 section{
     height: 750px;
 }
 .firstbutton{
+
     text-decoration: none;
-    background-color:rgb(214, 27, 105) ;
+    background-image: linear-gradient(180deg , #F761A1 , #8C1BAB);
     color: white;
     padding: 10px 30px;
     border-radius: 10px;
 
+}
+.bio:hover{
+    font-size: 50px;
 }
 #seconddiv{padding-top: 10%;
 }
@@ -46,10 +57,15 @@ section{
 
 }
 .thirddiv img{
-    width: 25%;
+    width: 20%;
     float: left;
-    padding: 30px;
-    
+    padding: 40px;
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 10px;
+    height: 80%;
+    margin-right: 2%;
+    margin-top: 30px;
+    margin-left: 30px;
     
 }
 .thirdsection{
@@ -83,7 +99,7 @@ section{
     margin-left: 325px;
    
    text-decoration: none;
-   background-color: rgb(214, 27, 105);
+   background-image: linear-gradient(180deg , #F761A1 , #8C1BAB);
    width: 50%;
    color: white;
    border-radius: 10px;
@@ -103,3 +119,12 @@ section{
 #copyright{
     margin-top: 220px;
 }
+a:hover {
+    background-image:  linear-gradient( 90deg,#43CBFF, #9708CC) ;
+  }
+  .thirddiv:hover{
+      size: 20px;
+  }
+  #latestwork:hover{
+      font-size: 50px;
+  }
